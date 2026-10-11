@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pixel Vault, tienda online de videojuegos">
+  <title>Pixel Vault | Tienda de videojuegos</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#inicio">Pixel Vault</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+          aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#catalogo">Catálogo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="portada text-white">
+      <div class="container">
+        <h1 class="display-5 fw-bold">Tus próximos juegos están acá</h1>
+        <p class="lead">Acción, rol, carreras y mucho más con despacho digital inmediato.</p>
+        <a href="#catalogo" class="btn btn-warning btn-lg">Ver catálogo</a>
+      </div>
+    </section>
+
+    <section id="catalogo" class="py-5">
+      <div class="container">
+        <div class="encabezado-catalogo mb-4">
+          <h2 class="mb-0">Catálogo</h2>
+          <p id="contador" class="text-muted mb-0"></p>
+        </div>
+
+        <div id="filtros" class="filtros mb-4" role="group" aria-label="Filtrar por categoría"></div>
+
+        <div id="lista-juegos" class="row g-4"></div>
+      </div>
+    </section>
+
+    <section id="contacto" class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <h2>Contacto</h2>
+            <p class="text-muted">¿Dudas con una compra? Escríbenos y te respondemos dentro de 24 horas.</p>
+
+            <form id="formulario-contacto" novalidate>
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre">
+                <div class="invalid-feedback" id="error-nombre"></div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email">
+                <div class="invalid-feedback" id="error-email"></div>
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="4"></textarea>
+                <div class="invalid-feedback" id="error-mensaje"></div>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            </form>
+
+            <div id="mensaje-enviado" class="alert alert-success mt-3 d-none" role="alert"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container pie">
+      <div>
+        <p class="fw-bold mb-1">Pixel Vault</p>
+        <p class="mb-0 small">Tienda online de videojuegos</p>
+      </div>
+      <address class="mb-0 small">
+        contacto@pixelvault.cl<br>
+        +56 9 1234 5678
+      </address>
+      <p class="mb-0 small derechos">&copy; 2026 Pixel Vault</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/juegos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

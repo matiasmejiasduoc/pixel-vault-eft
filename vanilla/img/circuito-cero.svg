@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d47a1"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" fill="url(#g)"/>
+  <path d="M-20 260 C 150 120, 350 320, 520 120" stroke="#00e5ff" stroke-width="22" fill="none" opacity=".7"/><path d="M-20 260 C 150 120, 350 320, 520 120" stroke="#fff" stroke-width="3" stroke-dasharray="18 14" fill="none"/>
+  <text x="24" y="270" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="bold" fill="#fff">Circuito Cero</text>
+</svg>
