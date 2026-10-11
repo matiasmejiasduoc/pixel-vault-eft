@@ -1,0 +1,89 @@
+:root {
+  --morado: #4a148c;
+  --morado-oscuro: #1a0033;
+  --amarillo: #ffc107;
+  --gris: #6c757d;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+body {
+  padding-top: 56px;
+}
+
+.portada {
+  padding: 90px 0;
+  background: linear-gradient(135deg, var(--morado), var(--morado-oscuro));
+}
+
+/* titulo y contador en la misma fila, en celular bajan */
+.encabezado-catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tarjeta-juego {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tarjeta-juego:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tarjeta-juego .card-img-top {
+  aspect-ratio: 5 / 3;
+  object-fit: cover;
+}
+
+.tarjeta-juego .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+.precio {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--morado);
+}
+
+/* pie con grid: 3 columnas en escritorio y 1 en celular */
+.pie {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  align-items: center;
+}
+
+.derechos {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .portada {
+    padding: 60px 0;
+  }
+
+  .pie {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .derechos {
+    text-align: center;
+  }
+}
