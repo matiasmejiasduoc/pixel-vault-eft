@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ad1457"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" fill="url(#g)"/>
+  <circle cx="300" cy="140" r="90" fill="#ffcc80" opacity=".35"/><circle cx="420" cy="90" r="40" fill="#ffcc80" opacity=".6"/><circle cx="160" cy="80" r="18" fill="#ffcc80"/>
+  <text x="24" y="270" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="bold" fill="#fff">Fábrica de Sueños</text>
+</svg>

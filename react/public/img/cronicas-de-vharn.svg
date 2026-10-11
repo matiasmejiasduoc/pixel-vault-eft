@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b5e20"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" fill="url(#g)"/>
+  <polygon points="0,300 140,120 260,300" fill="#cddc39" opacity=".45"/><polygon points="180,300 360,80 560,300" fill="#cddc39" opacity=".7"/>
+  <text x="24" y="270" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="bold" fill="#fff">Crónicas de Vharn</text>
+</svg>
