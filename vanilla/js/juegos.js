@@ -1,0 +1,99 @@
+// catálogo de la tienda, cada juego es un objeto con sus datos
+const juegos = [
+  {
+    id: 1,
+    nombre: 'Nébula Prime',
+    categoria: 'Acción',
+    precio: 34990,
+    descripcion: 'Shooter espacial con campaña cooperativa para cuatro jugadores.',
+    imagen: 'img/nebula-prime.svg'
+  },
+  {
+    id: 2,
+    nombre: 'Puño de Acero',
+    categoria: 'Acción',
+    precio: 17990,
+    descripcion: 'Beat \'em up de barrio con combos encadenados y modo arcade.',
+    imagen: 'img/puno-de-acero.svg'
+  },
+  {
+    id: 3,
+    nombre: 'Reino de Cenizas',
+    categoria: 'Rol',
+    precio: 44990,
+    descripcion: 'RPG de mundo abierto con más de 80 horas de historia principal.',
+    imagen: 'img/reino-de-cenizas.svg'
+  },
+  {
+    id: 4,
+    nombre: 'Crónicas de Vharn',
+    categoria: 'Rol',
+    precio: 29990,
+    descripcion: 'Rol táctico por turnos con un grupo de seis héroes a elección.',
+    imagen: 'img/cronicas-de-vharn.svg'
+  },
+  {
+    id: 5,
+    nombre: 'Circuito Cero',
+    categoria: 'Carreras',
+    precio: 19990,
+    descripcion: 'Velocidad arcade con 42 pistas y modo contrarreloj en línea.',
+    imagen: 'img/circuito-cero.svg'
+  },
+  {
+    id: 6,
+    nombre: 'Rally Nocturno',
+    categoria: 'Carreras',
+    precio: 16490,
+    descripcion: 'Campeonato off road con clima dinámico y daño realista.',
+    imagen: 'img/rally-nocturno.svg'
+  },
+  {
+    id: 7,
+    nombre: 'Torre Infinita',
+    categoria: 'Estrategia',
+    precio: 12990,
+    descripcion: 'Defensa por turnos con mazos personalizables y torneos semanales.',
+    imagen: 'img/torre-infinita.svg'
+  },
+  {
+    id: 8,
+    nombre: 'Fábrica de Sueños',
+    categoria: 'Estrategia',
+    precio: 14990,
+    descripcion: 'Construye y automatiza tu propio parque de atracciones.',
+    imagen: 'img/fabrica-de-suenos.svg'
+  },
+  {
+    id: 9,
+    nombre: 'Última Frontera',
+    categoria: 'Aventura',
+    precio: 39990,
+    descripcion: 'Exploración en primera persona por un archipiélago perdido.',
+    imagen: 'img/ultima-frontera.svg'
+  },
+  {
+    id: 10,
+    nombre: 'Faro del Norte',
+    categoria: 'Aventura',
+    precio: 9990,
+    descripcion: 'Aventura narrativa sobre una guardiana de faro y sus secretos.',
+    imagen: 'img/faro-del-norte.svg'
+  },
+  {
+    id: 11,
+    nombre: 'Ecos del Abismo',
+    categoria: 'Terror',
+    precio: 24990,
+    descripcion: 'Survival horror submarino con gestión de oxígeno y recursos.',
+    imagen: 'img/ecos-del-abismo.svg'
+  },
+  {
+    id: 12,
+    nombre: 'La Casa Quieta',
+    categoria: 'Terror',
+    precio: 11990,
+    descripcion: 'Terror psicológico en una casa que cambia cada vez que vuelves.',
+    imagen: 'img/la-casa-quieta.svg'
+  }
+]
